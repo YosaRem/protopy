@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+enum COND {
+  FALSE = 0;
+  TRUE = 1;
+}
+
+message A {
+  string name = 1;
+  int32 age = 2;
+}
+
+message TestClass {
+  string str_value = 1;
+  int32 int_value = 2;
+  bool bool_value = 3;
+  float float_value = 4;
+  int32 int_value2 = 5;
+
+  enum COLOR {
+    BLACK = 0;
+    WHITE = 1;
+    GREEN = 2;
+  }
+
+  COND enum_cond = 6;
+  COLOR enum_color = 7;
+
+  map<string, string> dict_value = 8;
+  map<int32, string> dict_value2 = 9;
+}
