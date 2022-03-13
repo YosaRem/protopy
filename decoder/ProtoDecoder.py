@@ -1,10 +1,10 @@
-from WireTypeChoicer import WireTypeChoicer
-from StrDecoder import StrDecoder
-from IntDecoder import IntDecoder
-from BoolDecoder import BoolDecoder
-from MapDecoder import MapDecoder
-from FloatDecoder import FloatDecoder
-from EnumDecoder import EnumDecoder
+from .WireTypeChoicer import WireTypeChoicer
+from .StrDecoder import StrDecoder
+from .IntDecoder import IntDecoder
+from .BoolDecoder import BoolDecoder
+from .MapDecoder import MapDecoder
+from .FloatDecoder import FloatDecoder
+from .EnumDecoder import EnumDecoder
 
 
 class ProtoDecoder:

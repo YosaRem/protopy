@@ -1,6 +1,6 @@
 from unittest import TestCase
 from decoder.StrDecoder import StrDecoder
-from test.TestClass import TestClass
+from .TestClass import TestClass
 
 
 class BoolDecoderTest(TestCase):

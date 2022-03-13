@@ -1,4 +1,4 @@
-from BaseTypeEncoder import BaseTypeEncoder
+from .BaseTypeEncoder import BaseTypeEncoder
 
 
 class BoolEncoder(BaseTypeEncoder):

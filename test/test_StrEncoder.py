@@ -1,6 +1,6 @@
 from unittest import TestCase
 from encoder.ProtoEncoder import ProtoEncoder
-from test.TestClass import TestClass
+from .TestClass import TestClass
 
 
 class StrEncoderTest(TestCase):

@@ -1,7 +1,7 @@
-from BaseTypeEncoder import BaseTypeEncoder
-from BoolEncoder import BoolEncoder
-from IntEncoder import IntEncoder
-from StrEncoder import StrEncoder
+from .BaseTypeEncoder import BaseTypeEncoder
+from .BoolEncoder import BoolEncoder
+from .IntEncoder import IntEncoder
+from .StrEncoder import StrEncoder
 
 
 class MapEncoder(BaseTypeEncoder):

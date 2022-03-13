@@ -1,6 +1,5 @@
-from BaseTypeEncoder import BaseTypeEncoder
-from math import ceil
 import struct
+from .BaseTypeEncoder import BaseTypeEncoder
 
 
 class IntEncoder(BaseTypeEncoder):

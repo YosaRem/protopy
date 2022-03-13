@@ -1,9 +1,9 @@
-from Exception import WrongClassException
-from IntEncoder import IntEncoder
-from StrEncoder import StrEncoder
-from BoolEncoder import BoolEncoder
-from MapEncoder import MapEncoder
-from FloatEncoder import FloatEncoder
+from .Exception import WrongClassException
+from .IntEncoder import IntEncoder
+from .StrEncoder import StrEncoder
+from .BoolEncoder import BoolEncoder
+from .MapEncoder import MapEncoder
+from .FloatEncoder import FloatEncoder
 
 
 class ProtoEncoder:

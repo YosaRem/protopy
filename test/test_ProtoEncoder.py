@@ -1,5 +1,5 @@
 from unittest import TestCase
-from test.TestClass import TestClass
+from .TestClass import TestClass
 from encoder.ProtoEncoder import ProtoEncoder
 from decoder.ProtoDecoder import ProtoDecoder
 

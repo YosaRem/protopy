@@ -1,5 +1,5 @@
 import struct
-from BaseTypeEncoder import BaseTypeEncoder
+from .BaseTypeEncoder import BaseTypeEncoder
 
 
 class FloatEncoder(BaseTypeEncoder):

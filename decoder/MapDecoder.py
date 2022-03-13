@@ -1,7 +1,7 @@
-from StrDecoder import StrDecoder
-from IntDecoder import IntDecoder
-from BoolDecoder import BoolDecoder
-from WireTypeChoicer import WireTypeChoicer
+from .StrDecoder import StrDecoder
+from .IntDecoder import IntDecoder
+from .BoolDecoder import BoolDecoder
+from .WireTypeChoicer import WireTypeChoicer
 
 
 class MapDecoder:
