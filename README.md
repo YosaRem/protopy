@@ -80,7 +80,7 @@ print(instance_class.name) # напечатает "Some Name"
 
 ## Запуск тестов
 ```shell
-python3 -m pytest test
+pytest
 ```
 
 ## Что может эта версия: 
